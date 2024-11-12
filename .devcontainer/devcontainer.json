@@ -1,0 +1,21 @@
+{
+    "name": "Inventory Management Dev Container",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "workspaceFolder": "/workspace",
+    "runArgs": ["--init"],
+    "settings": {
+      "python.pythonPath": "/usr/local/bin/python",
+      "python.venvPath": "/workspace/.venv"
+    },
+    "extensions": [
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "charliermarsh.ruff",  // Python linter
+      "aaron-bond.better-comments"
+    ],
+    "mounts": [
+      "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+    ],
+    "postCreateCommand": "poetry install"
+  }  
