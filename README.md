@@ -28,7 +28,6 @@ A basic console-based system that manages inventory for a small business. The sy
 ## Instructions
 - This project is used `Docker` for `containarization` feature. So, these steps must follow:
 
-<code>streamlit run main.py python manage.py runserver</code>
 <h2> Step-1: Download docker (Mac/Window/Linux) if you don't have before:  </h2>
 <code> https://docs.docker.com/desktop/</code>
 
