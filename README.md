@@ -73,9 +73,3 @@ A basic console-based system that manages inventory for a small business. The sy
 
 ![Login Screen](/static/img/screenshots/user-management.png)
 </div>
-
-<h3>Role & Permission</h3>
-<div align="center">
-
-![Login Screen](/static/img/screenshots/Roles-permission.png)
-</div>
