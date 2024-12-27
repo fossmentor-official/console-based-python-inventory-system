@@ -3,6 +3,7 @@
 
 ### Technologies Used
 - Python
+- Dev Container
 
 ### Objective
 A basic console-based system that manages inventory for a small business. The system allow admins to create, update, view, and delete products in the inventory while keeping track of stock levels and handling multiple users with role-based permissions.
